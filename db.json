@@ -1,0 +1,112 @@
+
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Ali Ahmadi",
+        "age": 28,
+        "email": "ali@example.com",
+        "isActive": true
+      },
+      {
+        "id": 2,
+        "name": "Sara Karimi",
+        "age": 24,
+        "email": "sara@example.com",
+        "isActive": true
+      },
+      {
+        "id": 3,
+        "name": "Reza Moradi",
+        "age": 32,
+        "email": "reza@example.com",
+        "isActive": false
+      },
+      {
+        "id": 4,
+        "name": "Neda Hosseini",
+        "age": 27,
+        "email": "neda@example.com",
+        "isActive": true
+      },
+      {
+        "id": 5,
+        "name": "Amir Jafari",
+        "age": 35,
+        "email": "amir@example.com",
+        "isActive": false
+      }
+    ],
+    "products": [
+      {
+        "id": 101,
+        "name": "Laptop",
+        "price": 850,
+        "category": "Electronics",
+        "stock": 12
+      },
+      {
+        "id": 102,
+        "name": "Mouse",
+        "price": 25,
+        "category": "Accessories",
+        "stock": 50
+      },
+      {
+        "id": 103,
+        "name": "Keyboard",
+        "price": 60,
+        "category": "Accessories",
+        "stock": 30
+      },
+      {
+        "id": 104,
+        "name": "Monitor",
+        "price": 220,
+        "category": "Electronics",
+        "stock": 8
+      },
+      {
+        "id": 105,
+        "name": "Headphones",
+        "price": 75,
+        "category": "Audio",
+        "stock": 20
+      }
+    ],
+    "orders": [
+      {
+        "id": 1001,
+        "userId": 1,
+        "productId": 101,
+        "quantity": 1,
+        "total": 850,
+        "status": "delivered"
+      },
+      {
+        "id": 1002,
+        "userId": 2,
+        "productId": 102,
+        "quantity": 2,
+        "total": 50,
+        "status": "pending"
+      },
+      {
+        "id": 1003,
+        "userId": 3,
+        "productId": 104,
+        "quantity": 1,
+        "total": 220,
+        "status": "shipped"
+      },
+      {
+        "id": 1004,
+        "userId": 4,
+        "productId": 105,
+        "quantity": 2,
+        "total": 150,
+        "status": "delivered"
+      }
+    ]
+  }
+  
